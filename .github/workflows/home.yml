@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="../css/home.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" rel="stylesheet" >
+</head>
+<body background="../img/pexels-photo-1454794.jpeg">
+    <div class="banner">
+       
+        <div class="content">
+<h1>WELCOME TO OUR WEBSITE</h1>
+
+
+<p>Who are you</p>
+<p><a href="login.php"><i class="fas fa-police-box"></i>A police officer</a>
+<br>
+<a href="citizenhome.php">A casualty/witness</a></p>
+
+        </div>
+    </div>
+   
+   
+</body>
+</html>
