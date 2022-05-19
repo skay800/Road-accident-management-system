@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+*{
+    margin: 0px;
+    padding:0px ;
+    box-sizing:border-box ;
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+
+    .about{
+width: 100%;
+padding: 78px 0px;
+background-image: url(../img/michael-fortsch-y5LaV9IEC_g-unsplash.jpg);
+ background-position: bottom;
+ background-size: cover;
+ display: flex;
+ align-items: flex-end;
+ justify-content: center;
+ background-repeat: no-repeat;
+    }
+
+    .about img{
+height: auto;
+width: 420px;
+
+    }
+    .about-text{
+width: 550px;
+
+    }
+    .main{
+        width: 1130px;
+        max-width:95% ;
+        margin:0 auto ;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .about-text h1{
+color:white ;
+font-size:80px ;
+text-transform:capitalize ;
+margin-bottom: 20px;
+    }
+
+    .about-text h5{
+        color:white ;
+        font-size:25px ;
+        text-transform:capitalize ;
+        margin-bottom: 25px;
+        letter-spacing: 2px;
+            }
+            span{
+                color: #f9004d;
+            }
+            .about-text P{
+                color:#fcfc ;
+                letter-spacing:1px ;
+                line-height: 28px;
+                font-size: 18px;
+                margin-bottom: 45px;
+            }
+            .about-text li{
+                color:#fcfc ;
+               
+            }
+             .social{
+                margin:40px 40px;
+                }
+                .social{
+               
+                font-size: 30px;
+                padding: 0px 10px;
+                }
+                .social i{
+                    color: #f9004d;
+               
+                    }
+                   
+                .social i:hover{
+                    color:#fcfc ;
+                
+                    }
+                    .image-section{
+                        float:none;
+                        width:100%;
+                        
+                    }
+                    .image-section img{
+                        height: auto;
+                        width:100%;
+                        display: block;
+                        margin: auto;
+                    }
+                    button{
+                        background:#f9004d ;
+                        color:white ;
+                        text-decoration:none ;
+                        border: 2px solid transparent;
+                        font-weight:bold ;
+                        padding:13px 30px ;
+                        border-radius: 30px;
+                        transition: .4s;
+                    }
+                    button :hover{
+                        background:transparent ;
+                        border: 2px solid #f9004d;
+                        cursor: pointer;
+                    }
+            
